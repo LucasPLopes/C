@@ -1,5 +1,6 @@
 #include<stdio.h>
 
+//void display(int v[], int n)
 void display(int *v, int n){
     for (size_t i = 0; i < n; i++)
     {
