@@ -10,7 +10,7 @@ void bubblesort(int *v, int n)
     do
     {
         troca = false;
-        for (size_t i = 0; i < n - 1; i++)
+        for (size_t i = 0; i <= n - 2; i++)
         {
             if (v[i] > v[i + 1])
             {
